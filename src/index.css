@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --normal-font: "Nunito Sans", sans-serif;
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-bg: hsl(0, 0%, 99%);
+  --color-grey-input: hsl(0, 0%, 50%);
+  --color-grey-text: hsl(200, 15%, 8%);
+  --color-dark-blue-text: hsl(209, 23%, 22%);
+  --color-dark-blue-bg: hsl(207, 26%, 17%);
+}
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(2px); } to { opacity: 1; transform: none; } }
